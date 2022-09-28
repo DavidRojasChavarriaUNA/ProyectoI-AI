@@ -1,8 +1,8 @@
-Universidad Nacional 
-Escuela de Informática 
-Arquitectura de información.
+# Universidad Nacional 
+## Escuela de Informática 
+### Arquitectura de información.
 
-Proyecto 1.
+#### Proyecto 1.
 
 Estudiante: 
 David Rojas Chavarría
@@ -19,3 +19,7 @@ Sitio web
 Podrá acceder al sitio web del proyecto I en la siguiente dirección web:
 	https://ai-tarea1-dr.netlify.app/
 	
+para instalar el proyecto ejecutar el comando
+npm i
+ para ejecutar el proyecto ejecutar el comando 
+npm run dev
