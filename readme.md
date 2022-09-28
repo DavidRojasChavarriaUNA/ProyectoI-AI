@@ -17,7 +17,7 @@ Repositorio
 
 Sitio web
 Podrá acceder al sitio web del proyecto I en la siguiente dirección web:
-	https://ai-tarea1-dr.netlify.app/
+	https://proyecto-i-ai-david-rojas.netlify.app/
 	
 para instalar el proyecto ejecutar el comando
 npm i
