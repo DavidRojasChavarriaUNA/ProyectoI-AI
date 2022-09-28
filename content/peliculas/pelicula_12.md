@@ -8,7 +8,7 @@ compositores: [{
     nombre: Naoki Satō
 }]
 album:
-    id: album_12,
+    id: album_12
     nombre: Space Battleship Yamato (Original Soundtrack)
 trailer: https://www.youtube.com/embed/u0KSz762k_0
 ---

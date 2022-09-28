@@ -8,7 +8,7 @@ compositores: [{
     nombre: Ennio Morricone
 }]
 album:
-    id: album_01,
+    id: album_01
     nombre: El Bueno el Feo y el Malo (Banda Sonora Original)
 trailer: https://www.youtube.com/embed/exJOy6uTkek
 ---

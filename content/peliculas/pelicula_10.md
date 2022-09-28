@@ -8,7 +8,7 @@ compositores: [{
     nombre: Harry Gregson-Williams
 }]
 album:
-    id: album_10,
+    id: album_10
     nombre: Kingdom of Heaven (Original Motion Picture Soundtrack)
 trailer: https://www.youtube.com/embed/cUn-O11IIBk
 ---

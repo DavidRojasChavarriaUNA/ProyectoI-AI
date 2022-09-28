@@ -8,7 +8,7 @@ compositores: [{
     nombre: John Towner Williams
 }]
 album:
-    id: album_03,
+    id: album_03
     nombre: Indiana Jones - The Soundtracks Collection
 trailer: https://www.youtube.com/embed/KGW_5fPY6As
 ---

@@ -12,7 +12,7 @@ compositores: [{
     nombre: Lisa Gerrard
 }]
 album:
-    id: album_09,
+    id: album_09
     nombre: Gladiator - Music From The Motion Picture
 trailer: https://www.youtube.com/embed/CcugOETLiFg
 ---

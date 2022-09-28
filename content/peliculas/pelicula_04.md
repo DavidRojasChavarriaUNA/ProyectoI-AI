@@ -8,7 +8,7 @@ compositores: [{
     nombre: Brad Fiedel
 }]
 album:
-    id: album_04,
+    id: album_04
     nombre: The Terminator (Original Motion Picture Soundtrack)
 trailer: https://www.youtube.com/embed/k64P4l2Wmeg
 ---

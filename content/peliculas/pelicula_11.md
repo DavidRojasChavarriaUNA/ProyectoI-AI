@@ -8,7 +8,7 @@ compositores: [{
     nombre: Howard Shore
 }]
 album:
-    id: album_11,
+    id: album_11
     nombre: The Lord of the Rings - The Fellowship of the Ring (Original Motion Picture Soundtrack)
 trailer: https://www.youtube.com/embed/7wK0FfNd18o
 ---

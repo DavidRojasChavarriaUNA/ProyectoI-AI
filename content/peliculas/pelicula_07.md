@@ -8,7 +8,7 @@ compositores: [{
     nombre: Alan Silvestri
 }]
 album:
-    id: album_07,
+    id: album_07
     nombre: Back to the Future - Music from the Motion Picture Soundtrack
 trailer: https://www.youtube.com/embed/6Og6VF6TfB0
 ---

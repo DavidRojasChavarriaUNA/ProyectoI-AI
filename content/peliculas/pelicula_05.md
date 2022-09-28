@@ -8,7 +8,7 @@ compositores: [{
     nombre: John Towner Williams
 }]
 album:
-    id: album_05,
+    id: album_05
     nombre: Star Wars - A New Hope (Original Motion Picture Soundtrack)
 trailer: https://www.youtube.com/embed/n1CUHjrc9Sc
 ---

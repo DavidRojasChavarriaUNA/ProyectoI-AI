@@ -8,7 +8,7 @@ compositores: [{
     nombre: Ennio Morricone
 }]
 album:
-    id: album_02,
+    id: album_02
     nombre: Por un puñado de dólares (Banda sonora de la película) [Remasterizado]
 trailer: https://www.youtube.com/embed/fhnUx7oQgCI
 ---

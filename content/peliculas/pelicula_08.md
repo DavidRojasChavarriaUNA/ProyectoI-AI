@@ -8,7 +8,7 @@ compositores: [{
     nombre: James Horner
 }]
 album:
-    id: album_08,
+    id: album_08
     nombre: Braveheart - Original Motion Picture Soundtrack
 trailer: https://www.youtube.com/embed/Axvu7UMEMMQ
 ---

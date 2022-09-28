@@ -8,7 +8,7 @@ compositores: [{
     nombre: Alan Silvestri
 }]
 album:
-    id: album_06,
+    id: album_06
     nombre: Predator (Original Motion Picture Soundtrack)
 trailer: https://www.youtube.com/embed/_1wDBNHYDv8
 ---
