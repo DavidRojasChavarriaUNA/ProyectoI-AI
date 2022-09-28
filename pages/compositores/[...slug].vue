@@ -13,40 +13,38 @@
                                         <img class="img-fluid" :src="doc.image">
                                     </div>
                                     <div class="col-12 col-md-8 text-justify pt-3 ps-md-4">
-                                        <h5>
-                                            Banda sonora compuesta por:
-                                            <ul>
-                                                <li v-for="compositor in doc.compositores" :key="compositor.id">
-                                                    <NuxtLink :to="'/compositores/'+compositor.id">{{compositor.nombre}}
+                                        <h5>Peliculas:</h5>
+                                        <ul>
+                                            <li v-for="pelicula in doc.peliculas" :key="pelicula.id">
+                                                <ContentQuery path="/peliculas" :where="{ id: pelicula.id }"
+                                                    v-slot="{data}">
+                                                    <NuxtLink v-show="data && data[0]" :to="'/peliculas/'+data[0].id">
+                                                        {{data[0].title}}
                                                     </NuxtLink>
-                                                </li>
-                                            </ul>
-                                        </h5>
-                                        <h5>
-                                            Album de la pelicula:
-                                            <ul>
-                                                <li>
-                                                    <NuxtLink :to="'/albumes/'+doc.album.id">{{doc.album.nombre}}
+                                                </ContentQuery>
+                                            </li>
+                                        </ul>
+                                        <h5>Álbumes de peliculas:</h5>
+                                        <ul>
+                                            <li v-for="album in doc.albumes" :key="album.id">
+                                                <ContentQuery path="/albumes" :where="{ id: album.id }"
+                                                    v-slot="{data}">
+                                                    <NuxtLink v-show="data && data[0]" :to="'/albumes/'+data[0].id">
+                                                        {{data[0].title}}
                                                     </NuxtLink>
-                                                </li>
-                                            </ul>
-                                        </h5>
-                                        <ContentRenderer :value="doc" />
+                                                </ContentQuery>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <hr>
+                                    <hr class="mt-5">
                                 </div>
-                            </div>
-                        </div>
-                        <div class="row g-0 justify-content-center mt-4">
-                            <div class="col-12 col-md-10 text-justify">
-                                <h3>Trailer de la película</h3>
-                                <div class="containerVideo">
-                                    <iframe :src="doc.trailer" title="YouTube video player" frameborder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen class="video"></iframe>
+                                <div class="row g-0 justify-content-center mt-4">
+                                    <div class="col-12 col-md-12 text-justify">
+                                        <ContentRenderer :value="doc" />
+                                        <br>
+                                        <NuxtLink to="/compositores">Regresar</NuxtLink>
+                                    </div>
                                 </div>
-                                <br>
-                                <NuxtLink to="/peliculas">Regresar</NuxtLink>
                             </div>
                         </div>
                     </ContentDoc>

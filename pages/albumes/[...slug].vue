@@ -53,7 +53,7 @@
                                         <h5>Duración</h5>
                                         <ul><li>{{doc.duracion}}</li></ul>
                                     </div>
-                                    <hr>
+                                    <hr class="mt-5">
                                 </div>
                                 <div class="row g-0 justify-content-center mt-4">
                                     <div class="col-12 col-md-10 text-justify">
